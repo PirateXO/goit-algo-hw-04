@@ -31,7 +31,6 @@ def get_cats_info(path):
         print(f"Error reading file '{path}': {str(e)}")
         return []
 
-# Приклад використання:
 path_to_file = 'cats_info.txt'  # Шлях до файлу з інформацією про котів
 cats_info = get_cats_info(path_to_file)
 
